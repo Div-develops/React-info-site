@@ -1,0 +1,36 @@
+.flexr{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+
+
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  margin-left:10px;
+  
+
+  color: #ffffff;
+}
+
+
+ul > li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding:15px;
+
+  color: #ffffff;
+}
+ul>li::marker{
+    font-size:1.4rem;
+    color: #61dafb;;
+  }
